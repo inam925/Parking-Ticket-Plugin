@@ -1,0 +1,106 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  padding-top: 50px;
+}
+#credit div:hover {
+  background-color: #ddd;
+}
+
+#customers,
+#payment-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th,
+#payment-table td,
+#payment-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even),
+#payment-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover,
+#payment-table tr:hover {
+  background-color: #ddd;
+}
+
+#customers th,
+#payment-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+  background-color: black !important;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  --padding-x: 1.2em;
+  border-color: transparent;
+}
+button:hover {
+  background-color: rgb(56, 56, 56) !important;
+}
+
+.ui-w-40 {
+  width: 40px !important;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+}
+
+.ui-product-color {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0.144em;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  vertical-align: middle;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+#lblCartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+
+body > .skiptranslate {
+  display: none;
+}
